@@ -1,0 +1,1766 @@
+/*首页*/
+/*导航*/
+*{
+    list-style: none;
+}
+.all-img{
+    display: block;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    width: 100%;
+    height: 45px;
+    background: #333333;
+}
+.nav-content{
+    max-width: 980px;
+    height: 45px;
+    padding: 0 22px;
+    margin:0 auto;
+}
+.nav-content ul{
+    width: auto;
+    height: 45px;
+}
+.nav-content ul li{
+   width: 108px;
+   height: 45px;
+   line-height: 45px;
+   float: left;
+}
+.nav-content ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-content ul li a:hover{
+    color: #B8B8B8;
+}
+#icon-phone{
+    font-size: 20px;
+    color: #fff;
+}
+#icon-phone:hover{
+    color:#B8B8B8; 
+}
+/*轮播*/
+.gallery-slider-wrapper{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.gallery li{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.ig{
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    margin: 0 auto;
+}
+.ig-inrtroduce{
+    position: absolute;
+    top:50px;
+    color: red;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
+.iphones{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    font-size: 30px;
+    color: #fff;
+}
+.number{
+    display:inline-block;
+   width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+#icon-ph{
+    display: inline-block;
+    font-size: 40px;
+    color: #000;
+}
+.series{
+    display: inline-block;
+    font-size: 15px;
+    color: #000;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.serice{
+    width: 400px;
+    height:80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:550px;
+    font-size: 40px;
+}
+.mackbook{
+    width:400px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:-140px;
+}
+.pro{
+    display: inline-block;
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+.line{
+    width:220px;
+    height:3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    bottom: 20px;
+}
+.line li{
+    float: left;
+    width:50px;
+    height: 3px;
+    margin: 0 10px;
+    background:#DCDCDC;
+}
+.line li p{
+    width: 0px;
+    height:3px;
+    background: #808080; 
+}
+.btn{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.btn li span{
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    line-height: 80px;
+    border-radius: 80px;
+}
+.btn1{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+.btn2{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+#arrow{   
+    text-align: center;
+    background:#E9E9E9;
+    opacity: 0.2;
+    color: #B0B6C2;
+    font-size: 30px;
+}
+/*内容部分*/
+.content{
+    width: 100%;
+    height: 200px;
+}
+.content ul li{
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+}
+/*结尾*/
+.footer{
+    max-width: 980px;
+    height: 450px;
+    padding:0 22px;
+    margin:0 auto;
+}
+.section{
+    max-width: 980px;
+    height: 20px;
+    overflow: hidden;
+    margin:0 auto;
+    padding:20px 0;
+    font-size: 11px;
+    color: #888;
+    border-bottom: 1px solid #888;
+}
+.footer-content{
+    width: 980px;
+    height: 250px;
+    margin: 0 auto;
+    padding:20px 0;
+}
+.footer-dl{
+    width: 196px;
+    height: 250px;
+    overflow: hidden;
+    display:block;
+    float: left;
+}
+.footer-dl dd a{
+    color: #555555;
+    padding: 2px 0;
+    font-size: 11px;
+    display: inline-block;
+}
+.footer-dl dl dd a{
+    color: #555555;
+    font-size: 11px;
+    padding: 2px 0;
+    display: inline-block;
+}
+.sections{
+    max-width: 980px;
+    height: 20px;
+    overflow: hidden;
+    margin:0 auto;
+    padding:10px 0;
+    font-size: 11px;
+    color: #888;
+    border-bottom: 1px solid #888;
+}
+.sections a{
+    color: #0070C9;
+}
+.footer-lists{
+    width: 980px;
+    height: 25px;
+    margin:0 auto;
+}
+.footer-lists ul li{
+    display: inline-block;
+    font-size: 11px;
+    color: #888;
+}
+.footer-lists ul li a{
+    color: #888;
+}
+.list-all{
+    padding: 0 10px;
+}
+.lists-alls{
+       border-right: 1px solid #D6D6D6; 
+}
+.list-last{
+    float: right;
+}
+.igs{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/16.png) center;
+}
+.china{
+    display: inline-block;
+    color: #000;
+    float: right;
+    margin-top: 5px;
+}
+.ready{
+    width: 980px;
+    height: 10px;
+    margin:0 auto;
+    font-size: 11px;
+    color: #888;
+}
+/*Mac页面*/
+.chapternav{
+    width: 100%;
+    height: 90px;
+    padding:12px 0;
+    background: #F6F6F6;
+    position: relative;
+    z-index: 10;
+    top:0;
+}
+.chapter{
+    width:860px;
+    height: 90px;
+    margin:0 auto; 
+    position: absolute;
+    top:15px;
+    left:0px;
+    right:0;
+    animation:mymove 5s linear;
+    -webkit-animation:mymove 0.4s linear;
+}
+
+@keyframes mymove{
+    from{left:200px;}
+    to{right:0;}
+}
+@-webkit-keyframes mymove{
+    from{left:200px;}
+    to{right:0;}
+}
+@-moz-keyframes mymove{
+    from{left:200px;}
+    to{right:0;}
+}
+
+
+.chapter ul li{
+    display: inline-block;
+}
+.chapter-items{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.chapter-items a{
+    color: #000;
+}
+.chapter-items a:hover{
+       text-decoration: none;
+       color:#0070c9; 
+}
+.chapter-icona{
+    width: 46px;
+    height: 54px;
+     background-size: 46px 54px;
+    background-image: url("../images/img05.png");
+}
+.chapter-iconb{
+    width: 52px;
+    height: 54px;
+    background-size: 52px 54px;
+    background-image:url("../images/img40.png");
+}
+.chapter-iconc{
+    width: 58px;
+    height: 54px;
+    background-size: 58px 54px;
+    background-image:url("../images/img39.png");
+}
+.chapter-icond{
+    width: 48px;
+    height: 54px;
+    background-size: 48px 54px;
+    background-image:url("../images/img06.png");
+}
+.chapter-icone{
+    width: 21px;
+    height: 54px;
+    background-size: 21px 54px;
+    background-image:url("../images/img07.png");
+}
+.chapter-iconf{
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-image:url("../images/img08.png");
+}
+.chapter-icong{
+    width: 29px;
+    height: 54px;
+    background-size: 29px 54px;
+    background-image:url("../images/img09.png");
+}
+.chapter-iconh{
+    width: 42px;
+    height: 54px;
+    background-size: 42px 54px;
+    background-image:url("../images/img10.png");
+}
+.chapter-iconi{
+    width: 70px;
+    height: 54px;
+    background-size: 70px 54px;
+    background-image:url("../images/img11.png");
+}
+.iconf-intro{
+    display: block;
+    margin-top: 5px;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    text-align:center;
+}
+.fp-product{
+    width: 100%;
+    height: 712px;
+    padding-top: 100px;
+}
+.fp-product-content{
+    width: 100%;
+    height: 710px;
+}
+.fg-content-head{
+    width: 100%;
+    height: 185px;
+    text-align: center;
+}
+.fg-h2{
+    font-size: 36px;
+}
+.fg-heading{
+     font-size: 36px;
+}
+.understand{
+    display: block;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #1570CB;
+}
+.understand a{
+    color: #1570CB;
+}
+.img-macbookproa{
+    width: 100%;
+    height: 627px;
+    margin:-100px auto;
+    background-size: 100% 627px;
+    background-image: url(../images/img41.png);
+}
+.img-macbookprob{
+    width: 939px;
+    height: 306px;
+    margin:60px auto;
+    background-size: 939px 306px;
+    background-image: url(../images/img13.png);
+}
+.img-macbookproc{
+    width: 1158px;
+    height: 385px;
+    overflow: hidden;
+    margin:50px auto;
+    background-size: 1158px 385px;
+    background-image: url(../images/img14.png);
+}
+.img-macbookprod{
+    width: 1040px;
+    height: 419px;
+    padding-bottom:100px;
+    border-bottom: 1px solid #D6D6D6;
+    overflow: hidden;
+    margin:50px auto;
+    background-size: 1040px 419px;
+    background-image: url(../images/img15.png);
+}
+.fp-shopstrip{
+    width: 100%;
+    height: 275px;
+    padding-top: 80px;
+}
+.fp-shopstrip-content{
+    width: 980px;
+    height: 275px;
+    margin:0 auto;
+}
+.fp-column{
+    width: 490px;
+    height: 275px;
+    float: left;
+    margin-top: 45px;
+}
+.fp-shop-icona{
+    width: 38px;
+    height:44px;
+    background-size: 38px 44px;
+    background-image: url(../images/img17.png); 
+}
+.fp-icon-introduce{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.fp-only-lage{
+    font-weight:400;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.fp-shrip-more a{
+    color: #0070C9;
+    text-align: center;
+    display: block;
+    margin:15px auto;
+    font-size: 14px;
+}
+.fp-shop-iconb{
+    width: 40px;
+    height:44px;
+    background-size: 40px 44px;
+    background-image: url(../images/img18.png); 
+}
+.fg-content-heads{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.img-macbookproe{
+    width: 1200px;
+    height: 389px;
+    background-size: 1200px 389px;
+    background-image: url(../images/img19.png);
+}
+.understands a{
+    font-size: 14px;
+    color: #1570CB;
+}
+.fp-product-iclound{
+    width: 100%;
+    height:700px;
+    margin:0 auto;
+    padding-top: 65px;
+}
+.img-macous-iclound{
+    width: 625px;
+    height:365px;
+    background-size: 625px 365px;
+    background-image: url(../images/img20.png);
+}
+.mac-ic-all{
+    width: 980px;
+    height:195px;
+    margin:0 auto;
+    padding-top: 35px;
+}
+.mac-column{
+    width: 370px;
+    height:195px;
+    float: left;
+}
+.macos{
+    font-size: 32px;
+    font-weight: 600;
+}
+.macos-introduce{
+    font-size: 16px;
+    font-weight: 500;
+}
+.mac-app-stroe{
+    width: 980px;
+    height:125px;
+    margin:40px auto;
+}
+.app-head{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.app-introduce{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+.app-box{
+    width:980px;
+    height: 686px;
+    margin:0 auto; 
+}
+.apps-item{
+    width:742px;
+    height: 124px;
+    margin:0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.apps-item li{
+    float: left;
+    width: 106px;
+    height: 124px;
+    text-align: center;
+    cursor: pointer;
+}
+.items-all{
+    display: block;
+    margin:0 auto;
+    font-weight: 600;
+}
+.active{
+    border-bottom: 1px solid #333333;
+}
+.gallery-items{
+    width:980px;
+    height: 540px;
+    margin:20px auto;
+    display: none;
+}
+/*选项卡部分*/
+.img-bia-photo{
+    width: 670px;
+    height: 540px;
+    float: left;
+}
+.items-right{
+    padding-left:30px;
+    width: 280px;
+    height: 540px;
+    float: left;
+}
+.items-right-head{
+    width:74px;
+    height: 74px;
+    margin-top: 50px;
+    display: block;
+}
+.items-h2{
+    font-size: 32px;
+    margin-top: 20px;    
+}
+.items-p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+/*第二个选项卡*/
+.app-items-all{
+    width:530px;
+    height: 124px;
+    margin:0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.app-items-all li{
+    float: left;
+    width: 106px;
+    height: 124px;
+    text-align: center;
+    cursor: pointer;
+}
+.gallery-items-all{
+     display: none;
+}
+.app-gallerys-all{
+    margin-top: 50px;
+}
+/*Mac 教育应用*/
+.mac-tech{
+    width: 100%;
+    height: 600px;
+    background-size: 100% 600px;
+    background-image: url(../images/img36.jpg);
+    position: relative;
+    top:50px;
+}
+.mac-box{
+    position:absolute;
+    left:0;
+    right: 0;
+    width: 800px;
+    height: 300px;
+    margin:100px auto;
+}
+.mac-use{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.mac-g{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.mac-g a{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+}
+.mac-sh{
+    width: 100%;
+    height: 600px;
+    background-size: 100% 600px;
+    background-image: url(../images/img37.png);
+    position: relative;
+    top:65px;
+}
+.mac-techs{
+    width: 100%;
+    height: 600px;
+    background-size: 100% 600px;
+    background-image: url(../images/img38.png);
+    position: relative;
+    top:80px;
+}
+#youjiantou{
+    display:inline-block;
+    float: left;
+    color: #ccc;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.mac{
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+/*第三页ipad页面*/
+.chapternav-icona{
+    width: 40px;
+    height: 54px;
+    background-size: 40px 54px;
+    background-image:url(../images/img59.png);
+}
+.chapternav-iconb{
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-image:url(../images/img60.png);
+}
+.chapternav-iconc{
+    width: 22px;
+    height: 54px;
+    background-size: 22px 54px;
+    background-image:url(../images/img61.png);
+}
+.chapternav-icond{
+    width: 22px;
+    height: 54px;
+    background-size: 22px 54px;
+    background-image:url(../images/img62.png);
+}
+.chapternav-icone{
+    width: 32px;
+    height: 54px;
+    background-size: 32px 54px;
+    background-image:url(../images/img63.png);
+}
+.chapternav-iconf{
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+   /* background-repeat: no-repeat;*/
+    background-image:url(../images/img64.png);
+}
+.chapternav-icong{
+    width: 47px;
+    height: 54px;
+    background-size: 47px 54px;
+    background-image:url(../images/img65.png);
+}
+.fr-herro-img{
+    width: 1222px;
+    height: 577px;
+    margin-top: 100px;
+    background-size: 1222px 577px;
+    background-image: url(../images/img66.png);
+}
+.section-apple-pencil{
+    width:100%;
+    height: 630px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.image-pencil{
+    max-width: 1413px;
+    height: 567px;
+    position: relative;
+    left: 220px;
+    top:0;
+    background-image: url(../images/img67.jpg);
+}
+.fp-content-product{
+    width:390px;
+    height: 155px;
+    position: absolute;
+    left: -120px;
+}
+.smart-keyboard{
+    width: 988px;
+    height: 846px;
+    position: relative;
+    right:200px;
+    z-index:11;
+    background-image: url(../images/img78.png);
+}
+.keyboard{
+    width:390px;
+    height: 155px;
+    position: absolute;
+    right: -150px;
+}
+.section-ipad-apps{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+.ipad-apps-introduce{
+   width: auto;
+   height: 170px;
+   margin:0 auto; 
+   padding-top: 100px;
+}
+.ipad-apps-head{
+    font-size: 40px;
+    text-align: center;
+}
+.ipad-apps-introduces{
+    font-size: 17px;
+    text-align: center;
+}
+.app-store{
+    display: block;
+    width: auto;
+    height: 20px;
+    margin:0 auto;
+    text-align: center;
+    color: #1570CB;
+    font-size: 17px;
+}
+.smart-ipad{
+    width: 1103px;
+    height: 714px;
+    position: relative;
+    right:200px;
+    z-index:11;
+    background-image: url(../images/img69.jpg);
+}
+.fr-ipadmini4 {
+    width: 1215px;
+    height: 1011px;
+    margin-top: 100px;
+    background-image: url(../images/img70.jpg);
+}
+.twen{
+    width: 85px;
+    height: 85px;
+    background-image: url(../images/img71.png);
+}
+.ipad-apps{
+    margin:0 auto;
+}
+.ipad-tween{
+    width: 1232px;
+    height: 420px;
+    background-image:url(../images/img72.png);
+}
+.ipad-stroe{
+    width: 1263px;
+    height: 263px;
+    background-image:url(../images/img73.png);
+}
+.ipad-box{
+    width: 980px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.ipad-moreblock{
+    position: relative;
+}
+/*第四页iPhone页面*/
+.iconf-iphone-intro{
+    color: #fff;
+}
+.chapternav-iphone-icona{
+    width: 38px;
+    height: 54px;
+    background-image: url(../images/img79.png);
+}
+.chapternav-iphone-iconb{
+    width: 38px;
+    height: 54px;
+    background-image: url(../images/img80.png);
+}
+.chapternav-iphone-iconc{
+    width: 18px;
+    height: 54px;
+    background-image: url(../images/img81.png);
+}
+.chapternav-iphone-icond{
+    width: 32px;
+    height: 54px;
+    background-image: url(../images/img82.png);
+}
+.chapternav-iphone-icone{
+    width: 44px;
+    height: 54px;
+    background-image: url(../images/img83.png);
+}
+.chapternav-iphone-iconf{
+    width: 50px;
+    height: 54px;
+    background-image: url(../images/img84.png);
+}
+.new-iphone{
+  color: #6bf;
+  display: block;
+  text-align: center;
+  font-size: 11px;
+}
+.fr-herro-iphone{
+    width: 1200px;
+    height: 522px;
+    background-image:url(../images/img85.png);
+}
+.iphone-fg-h2{
+    margin-top: 20px;
+    display: block;
+}
+.iphone-fg-h2 h2{
+    font-size: 16px;
+    color: #fff;
+}
+.iphone-fg-h2 h2 a{
+    color: #6bf;
+}
+.section-promos{
+    width: 100%;
+    height: 951px;
+    padding-top: 50px;
+    background:#F2F2F2;
+}
+.section-gutters{
+    max-width: 1350px;
+    height: 951px;
+    margin:0 auto; 
+    position: relative;
+}
+.gutters-column{
+    width: 650px;
+    height: 951px;
+    float: left;
+}
+.gutters-column img{
+    position:absolute;
+    bottom: 0;
+}
+.promo-frame{
+    width: 655px;
+    height: 600px;
+    position: absolute;
+    top:80px;
+}
+.promo-frame-head{
+    font-size: 24px;
+    height: 25px;
+    text-align: center;
+}
+.promo-frame-introduce{
+    font-size: 40px;
+    height: 55px;
+    text-align: center;
+    margin-top: 20px;
+}
+.promos-jb{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+.promos-jb a{
+    color: #0070c9;
+    font-size: 14px;
+}
+.section-gutters-compare{
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+    background:#F2F2F2;
+}
+.section-compare{
+    max-width: 1350px;
+    height: 600px;
+    background:#fff;
+    margin:0 auto;
+}
+.iphones-compare{
+    width: 100%;
+    height:200px;
+    padding-top: 100px;
+}
+.iphones-compare h2{
+    font-size: 40px;
+    text-align: center;
+}
+.iphones-all {
+    width: 1030px;
+    height: 245px;
+    margin:0 auto;
+}
+.iphones-all li{
+    float: left;
+}
+.iphones-all li a{
+    text-decoration: none;
+}
+.iphone7-plus{
+    width: 275px;
+    height: 240px;
+    margin-right: 35px;
+}
+.iphone7{
+    width: 177px;
+    height: 240px;
+    margin-right: 35px;
+}
+.iphone6s-plus{
+    width: 161px;
+    height: 240px;
+    margin-right: 35px;
+}
+.iphone6{
+    width: 141px;
+    height: 240px;
+    margin-right: 35px;
+}
+.iphone-se{
+    width: 116px;
+    height: 240px;
+}
+.iphone7-introduce{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+.iphone-plan{
+    width: 100%;
+    height: 130px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.phone-img{
+    width: 652px;
+    height: 300px;
+    margin-top: 100px;
+    background-repeat:no-repeat;
+    background-image: url(../images/img93.png);
+}
+.iphone-lists{
+    width: 380px;
+    height: 200px;
+    margin:0 auto;
+}
+.iphone-lists li{
+    font-size: 17px;
+}
+.promos-iphone{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+}
+.promos-iphone a{
+    color: #0070c9;
+}
+.trade-wrapper-iphone{
+    width: 380px;
+    height: 95px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 22px;
+}
+.iphone7s{
+    width: 504px;
+    height: 700px;
+    margin:120px auto;
+    background-image: url(../images/img94.png);
+}
+.section-ways{
+    width: 100%;
+    height: 720px;
+    background:#F2F2F2;
+}
+.ways-img{
+    max-width: 1350px;
+    height: 720px;
+    background-image: url(../images/img95.jpg);
+    position: relative;
+}
+.ways-left{
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: 720px;
+}
+.ways-head{
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    text-align: center;
+}
+.ways-right{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 720px;
+}
+.way-box{
+    width: 100%;
+    height: 480px;
+    background: #FAFAFA;
+}
+.section-pay{
+    width: 980px;
+    height: 480px;
+    margin:100px auto;
+}
+.pay-left{
+    width: 343px;
+    height: 472px;
+    float: left;
+    background-image: url(../images/img96.png);
+}
+.pay-right{
+    width: 330px;
+    height:100%;
+    float: right;
+    position: relative;
+}
+.iphone-pays{
+    width: 330px;
+    height: 180px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+}
+.pays-headline{
+    width: 100px;
+    height: 40px;
+    margin:0 auto;
+}
+#icon-pays{
+    font-size: 40px;
+    color: #000;
+}
+.headline-intro{
+    width: 330px;
+    height: 78px;
+    margin:0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+.sh-use{
+    max-width: 2560px;
+    height: 506px;
+    background-image: url(../images/img97.jpg);
+    position: relative;
+}
+.iphone-uses{
+    width: 980px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+}
+.iphone-understand{
+    width: 300px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.iphone-uses p{
+    font-size: 40px;
+    color: #fff;
+}
+.ac-gf-sosumi{
+    width: 980px;
+    height: 130px;
+    margin:0 auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.ac-gf-sosumi ul li{
+    color: #888888;
+    font-size: 10px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+/*第五页 Watch页面*/
+.new-watch{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+}
+.chapternav-watch-icona{
+    width:25px;
+    height: 54px;
+    background-image: url(../images/img98.png); 
+}
+.chapternav-watch-iconb{
+    width:25px;
+    height: 54px;
+    background-image: url(../images/img99.png); 
+}
+.chapternav-watch-iconc{
+    width:37px;
+    height: 54px;
+    background-image: url(../images/img100.png); 
+}
+.chapternav-watch-icond{
+    width:25px;
+    height: 54px;
+    background-image: url(../images/img101.png); 
+}
+.chapternav-watch-icone{
+     width:25px;
+    height: 54px;
+    /*display: block;
+    margin:0 auto;
+    background-repeat: no-repeat;*/
+    background-image: url(../images/img102.png); 
+}
+.chapternav-watch-iconf{
+    width:44px;
+    height: 54px;
+    background-image: url(../images/img103.png);
+}
+.chapternav-watch-icong{
+    width:17px;
+    height: 54px;
+    background-image: url(../images/img104.png);
+}
+.chapternav-watch-iconh{
+    width:52px;
+    height: 54px;
+    background-image: url(../images/img105.png);
+}
+.chapternav-watch-iconj{
+    width:39px;
+    height: 54px;
+    background-image: url(../images/img106.png);
+}
+.fr-herro-watch{
+    width:100%;
+    height: 980px;
+    background-image: url(../images/img107.png);
+    position: relative;
+}
+.extra-space{
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top:100px;
+}
+.watch-headline{
+    width: 800px;
+    height: 44px;
+    margin:0 auto;
+}
+#icon-watch{
+    font-size: 40px;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+.series2{
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+.section-models{
+    max-width: 1350px;
+    height: 1000px;
+    margin:0 auto;
+    position: relative;
+    top:230px;
+}
+.nicke-logo{
+    width: 223px;
+    height: 30px;
+    margin-top:100px;
+    background-size: 223px 30px;
+    background-image: url(../images/img108.png);
+}
+.nike-img{
+    width: 650px;
+    height: 724px;
+    position: absolute;
+    bottom: 0px;
+    background-image:url(../images/img109.png);
+    background-size: 650px 724px;
+}
+.hermes-logo{
+    width: 275px;
+    height: 30px;
+    margin-top:100px;
+    background-size: 275px 30px;
+    background-image: url(../images/img110.png);
+}
+.hermes-img{
+    width: 536px;
+    height: 635px;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-image:url(../images/img111.png);
+    background-size:536px 635px;
+}
+.hardware-frme{
+    max-width: 1350px;
+    height: 795px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top:230px;
+    background:#F2F2F2; 
+}
+.edition-logo{
+    width: 223px;
+    height: 25px;
+    margin-top:100px;
+    background-size: 223px 25px;
+    background-image: url(../images/img113.png);
+}
+.sub-headline{
+    font-size: 24px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.edition-img{
+    max-width: 1350px;
+    height: 520px;
+    background-size: 1350px 520px;
+    background-image: url(../images/img112.png);
+   margin-top: 58px;
+}
+.edition-watch{
+    width: 858px;
+    height: 472px;
+    margin-top: 50px;
+    background-image: url(../images/img114.png);
+}
+.edition-watch-logo{
+    width: 117px;
+    height: 44px;
+    background-size: 117px 44px;
+    background-image: url(../images/img116.png);
+}
+.gallery-watch-img{
+    max-width: 1350px;
+    height: 700px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.text-block{
+    width: 1000px;
+    height: 75px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.subsection-headline{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 32px;
+}
+.width-constraint{
+    max-width: 1350px;
+    height: 885px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.constraint-row{
+    width: 650px;
+    height: 885px;  
+    float: left;
+}
+.bands-img{
+    width: 650px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url(../images/img118.png);
+}
+.bands-img-right{
+    background-image:url(../images/img119.png);
+}
+.subsection-style{
+    margin-top: 50px;
+}
+.compare-watch{
+    max-width: 1350px;
+    height: 453px;
+    background:#F2F2F2;
+    margin:0 auto; 
+}
+.compare-watch a{
+    width: 944px;
+    height: 243px;
+    margin:0 auto;
+    display: block;
+    background-size: 944px 243px;
+    background-image: url(../images/img120.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 225px; 
+}
+.watchos{
+    background-image: url(../images/img121.png);
+}
+.films{
+    background-image: url(../images/img122.png);
+}
+.footer-box{
+    width: 100%;
+    height: 770px;
+    background:#F2F2F2;
+}
+/*Music第六个页面*/
+.chapternavs {
+    width: 100%;
+    height: 90px;
+    padding: 12px 0;
+    background-color:rgba(0,0,0,0.7);
+    position: relative;
+    z-index: 10;
+    top: 0;
+}
+.chapter-musics a{
+    color: #fff;
+}
+.chapternav-music-icona{
+    width: 28px;
+    height: 54px;
+    background-size: 28px 54px;
+    background-image: url(../images/img123.png);
+}
+.chapternav-music-iconb{
+    width: 31px;
+    height: 54px;
+    background-size: 31px 54px;
+    background-image: url(../images/img124.png);
+}
+.chapternav-music-iconc{
+    width: 23px;
+    height: 54px;
+    background-size: 23px 54px;
+    background-image: url(../images/img125.png);
+}
+.chapternav-music-icond{
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+    background-image: url(../images/img126.png);
+}
+.chapternav-music-icone{
+    width: 33px;
+    height: 54px;
+    background-size: 33px 54px;
+    background-image: url(../images/img127.png);
+}
+.card-hero{
+    width: 100%;
+    height: 1000px;
+    margin:0 auto;
+    background-image: url(../images/img129.jpg);
+    position: relative;
+    background-position: center;
+}
+.music-logo{
+    width: 980px;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+}
+.music-img{
+    width: 175px;
+    height: 42px;
+    background-size: 175px 42px;
+    background-repeat: no-repeat;
+    background-image: url(../images/img128.png);
+}
+.hero-subhead{
+    height:70px;
+    line-height: 70px;
+    font-size: 48px;
+    color: #fff;
+}
+.music-button{
+    width: 170px;
+    height: 35px;
+    background:#FF365D;
+    text-align: center;
+    line-height: 35px;
+    border-medium:none;
+    border:0px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.music-button a{
+    color: #fff;
+}
+.platter{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    max-width: 1160px;
+    height: 1485px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px;
+    top: -130px;
+}
+.dynamic-content{
+    width:980px;
+    height: 1485px;
+    margin: 0 auto;
+}
+.apple-music-headline{
+    height: 50px;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.platter-column{
+    width:490px;
+    height: 700px;
+    float: left;
+}
+.inner{
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.inner-headline{
+    font-size: 32px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.inner-copy{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px; 
+}
+.inner-copy a{      
+    color: #888888;
+    font-size: 12px;
+}
+.section-billboard{
+    width: 100%;
+    height: 975px;
+    background:#F5FDF1;
+    padding-top: 35px;
+}
+.airpods{
+    width: 980px;
+    height:940px;
+    margin:0 auto;
+    position: relative;
+}
+.airpods-headline{
+    width: 330px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.pods{
+    height: 20px;
+    line-height: 20px;
+    font-size: 22px;
+}
+.wx{
+    height:50px;
+    line-height: 50px;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.airpods-right{
+    width: 650px;
+    height:800px;
+    float: right;
+    padding-top: 35px;
+}
+.app-stores{
+    width: 100%;
+    height: 520px;
+    background:#FCEFFC;
+}
+.stroe-headline{
+    width: 980px;
+    height: 520px;
+    margin:0 auto;
+    position: relative;
+}
+.strore-app{
+    width: 520px;
+    height: 135px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+}
+.pods-app{
+    float: left;
+    font-size: 22px;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+}
+.wx-app{
+    float: left;
+    font-size: 35px;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #000;
+}
+.jy{
+    font-size: 12px;
+    font-weight: 600;
+    float: left;
+    margin-top: 20px;
+}
+.jy a{
+   color: #000;
+}
+.stroe-right{
+    width: 460px;
+    height: 438px;
+    float: right;
+    padding-top: 90px;
+}
+.app-all-box{
+    width: 100%;
+    height: 1000px;
+    padding-top: 150px;
+    background-color: #fff;
+}
+
+.ds-app{
+    width: 980px;
+    height:1000px;
+    margin:0 auto; 
+}
+.apps-all{
+    height: 50px;
+    line-height: 50px;
+    font-size:40px;
+    font-weight: 600;
+    text-align: center;
+}
+.app-imgs{
+    width: 980px;
+    height: 494px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.garage-bands{
+    width:980px;
+    height: 300px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.garage-bands ul li{
+    width: 245px;
+    height: 300px;
+    float: left;
+}
+.galage-heada{
+    width: 70px;
+    height: 85px;
+    display: block;
+    background-size: 70px 85px;
+    background-image: url(../images/img140.png);
+}
+.gallage-h3{
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.galage-articl{
+    padding-right: 22px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.bwl{
+    display: block;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.bwl a{
+    color: #000;
+}
+.galage-headb{
+    background-image: url(../images/img141.png);
+}
+.galage-headc{
+    background-image: url(../images/img142.png);
+}
+.galage-headd{
+    background-image: url(../images/img143.png);
+}
